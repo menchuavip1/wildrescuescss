@@ -125,3 +125,42 @@ tr:nth-child(odd) {
   background-color: #deccba;
 
 }
+
+fieldset, input {
+  margin: 2%;
+}
+
+legend {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+label{
+  display: block;
+  padding-top: 2%;
+}
+
+form{
+  width: auto;
+}
+
+form #submit {
+  margin: 0 auto;
+  display: block;
+  padding: 1%;
+  background-color: #7c5024;
+  font-size: 1em;
+  color: #f6eee4;
+  border-radius: 7px;
+}
+.form-grid{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+}
+
+.btn {
+  grid-column: 1 / span 2;
+}
+
+
